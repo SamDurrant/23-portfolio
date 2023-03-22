@@ -1,0 +1,9 @@
+.dog {
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.centerText {
+  text-align: center;
+}
