@@ -35,10 +35,8 @@
 
 .navLink {
   padding: 0.5rem 1rem;
-  transition: all 200ms ease-in-out;
 }
 
-.navLinkActive,
-.navLink:hover {
+.navLinkActive {
   background: var(--secondary-light);
 }

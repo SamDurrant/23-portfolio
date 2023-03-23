@@ -60,6 +60,7 @@ a {
   font-size: clamp(1.75rem, 1.5481rem + 0.8615vw, 2.625rem); /* 28-42px */
 }
 
+li,
 p {
   font-size: clamp(1rem, 0.8846rem + 0.4923vw, 1.5rem); /* 16-24px */
   line-height: 1.4;
@@ -67,6 +68,16 @@ p {
 
 .link {
   font-size: clamp(1.25rem, 1.1058rem + 0.6154vw, 1.875rem); /* 20-30px */
+}
+
+.linkHover {
+  background: linear-gradient(var(--secondary-light) 0 0) var(--p, 0) /
+    var(--p, 0) no-repeat;
+  transition: 0.4s, background-position 0s;
+}
+
+.linkHover:hover {
+  --p: 100%;
 }
 
 @media (prefers-color-scheme: dark) {

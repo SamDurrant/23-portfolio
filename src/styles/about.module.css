@@ -1,4 +1,5 @@
 .wrapper {
   width: 90vw;
   margin: 2rem auto;
+  max-width: 100ch;
 }

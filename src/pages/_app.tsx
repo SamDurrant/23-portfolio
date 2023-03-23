@@ -30,8 +30,8 @@ export default function App({ Component, pageProps }: AppProps) {
       key={i}
       className={
         router.pathname == link.url
-          ? `link ${styles.navLink} ${styles.navLinkActive}`
-          : `link ${styles.navLink}`
+          ? `link linkHover ${styles.navLink} ${styles.navLinkActive}`
+          : `link linkHover ${styles.navLink}`
       }
     >
       {link.text}
