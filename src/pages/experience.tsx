@@ -1,8 +1,8 @@
+import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Head from 'next/head'
 import * as React from 'react'
 import styles from '../styles/experience.module.css'
-import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Experience() {
   const [current, setCurrent] = React.useState(0)
