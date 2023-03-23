@@ -1,3 +1,13 @@
-.social {
-  color: #fff;
+.contactText {
+  font-family: var(--font-sono);
+}
+
+.icons {
+  color: var(--primary-dark);
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  font-size: clamp(3.25rem, 2.8461rem + 1.7231vw, 5rem);
 }

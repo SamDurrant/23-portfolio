@@ -1,8 +1,12 @@
-import React from 'react'
+import styles from '@/styles/about.module.css'
+import Head from 'next/head'
 
 function About() {
   return (
-    <div>
+    <div className={styles.wrapper}>
+      <Head>
+        <title>Samantha Durrant | About</title>
+      </Head>
       <p>
         Hey there! I'm Sam, a front end developer and designer who's always up
         for a challenge and loves collaborating with like-minded individuals who

@@ -1,18 +1,25 @@
 // pages/404.js
 import styles from '@/styles/404.module.css'
+import Head from 'next/head'
 import Image from 'next/image'
 import lost from '../assets/lost.jpeg'
 
 const NotFoundPage = () => {
   return (
     <div className={styles.NotFound}>
+      <Head>
+        <title>Samantha Durrant | Nothing Here</title>
+      </Head>
       <Image
         className={styles.dog}
         src={lost}
         width={500}
-        alt="My amazing dog staring at the camera"
+        priority={true}
+        alt="My amazing dog chilling in the desert and staring at the camera"
       />
-      <h2 className={styles.centerText}>You look a little lost.</h2>
+      <p className={styles.centerText}>
+        Sorry, there's nothing here except for a dog chilling in the desert.
+      </p>
     </div>
   )
 }

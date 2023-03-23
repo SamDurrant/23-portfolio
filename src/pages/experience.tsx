@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import * as React from 'react'
 import styles from '../styles/experience.module.css'
 
@@ -14,6 +15,9 @@ function Experience() {
       case 'Airin':
         return (
           <div className={styles.exp}>
+            <Head>
+              <title>Samantha Durrant | Experiences</title>
+            </Head>
             <div className="exp-meta">
               <span className="exp-meta-detail">09.2021 - 03.2023</span>
               <h2 className="exp-meta-name">Airin</h2>

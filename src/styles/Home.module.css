@@ -3,10 +3,42 @@
   flex-direction: column;
 }
 
+.name span {
+  border-bottom: 10px solid var(--primary-dark);
+  font-weight: 500;
+  padding: 0.5rem 5vw;
+}
+
 .textLeft {
   text-align: left;
 }
 
 .textRight {
   text-align: right;
+}
+
+.logo {
+  width: clamp(3.25rem, 2.4545rem + 3.39vw, 5rem);
+  height: clamp(3.25rem, 2.4545rem + 3.39vw, 5rem);
+  background: var(--secondary-dark);
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0.5rem;
+}
+
+.navLink {
+  padding: 0.5rem 1rem;
+  transition: all 200ms ease-in-out;
+}
+
+.navLinkActive,
+.navLink:hover {
+  background: var(--secondary-light);
 }

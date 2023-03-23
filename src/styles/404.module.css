@@ -1,9 +1,12 @@
 .dog {
   width: 50vw;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .centerText {
   text-align: center;
+  max-width: 25ch;
+  margin: 1rem auto;
 }
