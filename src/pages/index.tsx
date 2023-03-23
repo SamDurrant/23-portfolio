@@ -13,7 +13,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://photos.app.goo.gl/CjEjfTrCmsDY7McL9"
+          content="https://res.cloudinary.com/digedcdik/image/upload/v1679615430/portfolio_gjidtg.pnghttps://res.cloudinary.com/digedcdik/image/upload/v1679615430/portfolio_gjidtg.png"
         />
         <meta
           property="og:description"
