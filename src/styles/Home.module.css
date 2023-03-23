@@ -17,14 +17,22 @@
   text-align: right;
 }
 
-.logo {
-  width: clamp(3.25rem, 2.4545rem + 3.39vw, 5rem);
-  height: clamp(3.25rem, 2.4545rem + 3.39vw, 5rem);
-  background: var(--secondary-dark);
+.linkHome {
   display: inline-block;
-  border-radius: 50%;
   cursor: pointer;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  vertical-align: bottom;
+}
+
+.dog {
+  display: block;
+  width: auto;
+  height: clamp(4rem, 2.6364rem + 5.82vw, 7rem);
+  transition: all 200ms ease-in-out;
+}
+
+.dog:hover {
+  transform: rotate(35deg);
 }
 
 .nav {

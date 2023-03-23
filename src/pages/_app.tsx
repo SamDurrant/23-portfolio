@@ -4,6 +4,8 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import type { AppProps } from 'next/app'
 import Link from 'next/link'
+import Image from 'next/image'
+import dogDog from '../assets/dog-dog.png'
 import { useRouter } from 'next/router'
 config.autoAddCss = false
 
@@ -45,7 +47,15 @@ export default function App({ Component, pageProps }: AppProps) {
           <span className={styles.textLeft}>Samantha</span>
           <span className={styles.textRight}>
             Durrant
-            <a className={styles.logo} onClick={() => router.push('/')}></a>
+            <a className={styles.linkHome} onClick={() => router.push('/')}>
+              <Image
+                className={styles.dog}
+                src={dogDog}
+                height={150}
+                priority={true}
+                alt="A drawing of my amazing dog"
+              />
+            </a>
           </span>
         </h1>
         <nav className={styles.nav}>{linkItems}</nav>
